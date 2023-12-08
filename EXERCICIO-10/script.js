@@ -4,5 +4,9 @@ de nascimento do usuário. Ex: “Nome: Pedro, Idade: 22 anos, nasceu
 em 2000”.
 OBS: Pegue o ano atual como base*/
 
-let nomeUsuario = (prompt("Inserir nome do usuário",""));
-let idadeUsuario = Number(prompt("Inserir idade usuário",""))
+let nomeUsuario = (prompt("Inserir nome do usuário", ""));
+let idadeUsuario = Number(prompt("Inserir idade usuário", ""));
+
+let nasceUsuario = 2023 - idadeUsuario;
+
+alert("Nome usuário = " + nomeUsuario + "------  idade usuário = " + idadeUsuario + " ------data nascimento = " + nasceUsuario);
