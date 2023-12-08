@@ -6,7 +6,13 @@ b. “Número é impar!”, se o valor armazenado for ímpar;*/
 let numTeste = Number(prompt("Inserir número = ",""));
 let numDivide = numTeste/2;
 
+/*
 if(numTeste % 2 != 1 )
  alert("Numero par");
 else
-alert("Número impar")
+alert("Número impar")*/
+
+if(numTeste % 2 != 1 )
+ alert("O numero " + numTeste + " é par");
+else
+alert("O numero " + numTeste + " é impar");
