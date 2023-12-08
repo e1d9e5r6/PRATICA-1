@@ -9,6 +9,6 @@ let nasceUsuario = Number(prompt("Inserir data nascimento =",""))
 let idadeUsuario = 2023 - nasceUsuario
 
 if(idadeUsuario >= 18)
-alert("Usuário tem " + idadeUsuario + "anos de idade e deve votar")
+alert("Usuário tem " + idadeUsuario + " anos de idade e deve votar")
 else
-alert("Usuário tem " + idadeUsuario + "anos de idade e não deve votar")
+alert("Usuário tem " + idadeUsuario + " anos de idade e não deve votar")
