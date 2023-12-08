@@ -6,9 +6,14 @@ b. ‘Primeiro é maior’, caso o primeiro seja maior que o segundo;
 c. ‘Segundo maior’, caso o segundo seja maior que o primeiro.
 */
 
-let valorPrimeiro = Number(prompt("Digite o primeiro valor", ""));
-let valorSegundo = Number(prompt("Digite o segundo valor", ""));
-let valorDiferença = valorPrimeiro - valorSegundo;
+let valorPrimeiro = Number(prompt("Inserir primeiro numero", ""));
+let valorSegundo = Number(prompt("Inserir segundo numero",""));
 
-If (valorDiferença = 0);
-document.write("Primeiro valor é igual ao segundo valor");
+if (valorPrimeiro - valorSegundo == 0)
+  alert("Numeros iguais");
+else if(valorPrimeiro - valorSegundo < 0)
+  alert("Primeiro valor é menor do que o segundo valor");
+else
+  alert("Primeiro valor é maior do que o segundo valor");   
+
+  
